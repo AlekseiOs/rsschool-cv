@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 5px auto;
+  }
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+  }
+
+  .nav-link {
+    padding: 0 30px;
+    line-height: 100px;
+  }
+
+  .section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+  }
+  .section-item a:hover {
+    color: #4d2323;
+  }
+
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #141414;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/svg/rs-school-logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+
+  .Logo {
+    width: 25%; /* Ширина */
+    float: center; /* Выстраиваем элементы по горизонтали */
+    /*margin: 0 0 0 3.5%; /* Отступ слева */
+    /*background: #f0f0f0; /* Цвет фона */
+    /*border-radius: 5px; /* Радиус скругления */
+    padding: 5%; /* Поля */
+  }
+
+  .Foto{
+    width: 27%; /* Ширина */
+    float: left; /* Выстраиваем элементы по горизонтали */
+    margin: 0 0 0 3.5%; /* Отступ слева */
+    /*background: #f0f0f0; /* Цвет фона */
+    border-radius: 350px; /* Радиус скругления */
+    padding: 8%; /* Поля */
+  }
+
+  .fio{
+    padding: 0 30px;
+    line-height: 50px;
+    display: flexbox;
+  }
